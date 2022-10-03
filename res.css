@@ -1,0 +1,54 @@
+@media ( max-width:768px){
+    
+    .top{
+       padding: 0 80px;
+      
+    }
+    .about_item{
+        width: 100%;
+    }
+    .food_items{
+        width: 100%;
+    }
+    .food_price{
+        margin-left: 0;
+    }
+    .phan_hoi_item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .team_items{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .footer_item h2{
+        font-size: 20px;
+    }
+    .footer_item p{
+        font-size: 15px;
+    }
+   
+    .footer_social i {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .footer_copyright{
+        transform: translateY(-75px);
+        border-top: none;
+    }
+    .menu_items.menu_open{
+        width: 55%;
+    }
+    .menu_item{
+        margin-left: 20px;
+    }
+    .menu_bar.open{
+        transform: translateX(-5px);
+        transform: translateY(-10px);
+    }
+    .active.top::before{
+        transform: translateX(-80px);
+    }
+    
+    
+}
